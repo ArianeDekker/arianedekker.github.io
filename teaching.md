@@ -1,5 +1,5 @@
 ---
 title: Teaching
-layout: project
+layout: teaching
 ---
 
