@@ -4,22 +4,24 @@ layout: research
 ---
 
 
+
+
+<div style="float: left"><img src="assets/images/Papers/SterileNeutrino.jpg" width="500" /></div>
+
 ## Indirect dark matter searches
 gnkjsgjhjggsj
-
-<div style="text-align: left"><img src="assets/images/Papers/SterileNeutrino.jpg" width="500" /></div>
-
-
 
 ***
 
 <!-- ####### -->
 
 
-![image](assets/images/Papers/SterileNeutrino.jpg){: style="float: left"}
+<!-- ![image](assets/images/Papers/SterileNeutrino.jpg){: style="float: left"}
+
+***
 
 skgbkjsdgkjdsgjhs
-
+ -->
 <!-- ####### -->
 
 &nbsp;<br>
