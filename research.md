@@ -3,6 +3,7 @@ title: Research
 layout: research
 ---
 
+
 ## Indirect dark matter searches
 gnkjsgjhjggsj
 
@@ -12,23 +13,12 @@ gnkjsgjhjggsj
 
 ***
 
-<!-- ############ -->
-
-&nbsp;<br>
-&nbsp;<br>
-
-<img style="float: left;" src="assets/images/Papers/SterileNeutrino.jpg" width="500">
-
-&nbsp;<br>
-&nbsp;<br>
-&nbsp;<br>
+<!-- ####### -->
 
 
+![image](assets/images/Papers/SterileNeutrino.jpg){: style="float: left"}
 
-## Indirect dark matter searches
-gnkjsgjhjggsj
-
-
+skgbkjsdgkjdsgjhs
 
 <!-- ####### -->
 
