@@ -35,7 +35,7 @@ skgbkjsdgkjdsgjhs
 
 &nbsp;<br>
 
-<img style="float: left;" src="assets/images/Papers/DM_nu.jpg" width="500">
+<img style="float: left;" src="assets/images/Papers/DM_nu.jpg" width="450">
 
 ## High energy neutrinos
 gnkjsgjhjggsj
@@ -55,7 +55,7 @@ gnkjsgjhjggsj
 
 &nbsp;<br>
 
-<img style="float: left;" src="assets/images/Papers/wdm_Constraints.jpg" width="500">
+<img style="float: left;" src="assets/images/Papers/wdm_Constraints.jpg" width="400">
 
 ## Dark matter subhalos
 gnkjsgjhjggsj
