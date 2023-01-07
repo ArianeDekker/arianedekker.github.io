@@ -1,9 +1,8 @@
 ---
 title: Research
-layout: page
+layout: research
 ---
 
-gjbsjhgjdsghjjg
 
 * **Item 1**
 * ## Item 1
