@@ -1,6 +1,6 @@
 ---
 title: Research
-description: ....
+description: KAAS
 layout: research
 ---
 
