@@ -25,6 +25,7 @@ gnkjsgjhjggsj
 &nbsp;<br>
 
 ***
+<hr class="has-background-black">
 
 <!-- ####### -->
 
