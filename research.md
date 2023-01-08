@@ -6,11 +6,14 @@ layout: research
 &nbsp;<br>
 
 
-<div style="float: left"><img src="assets/images/Papers/SterileNeutrino.jpg" width="500" /></div>
+<div style="float: left"><img src="assets/images/Papers/SterileNeutrino.jpg" width="450" /></div>
 
 ## Indirect dark matter searches
 gnkjsgjhjggsj
 
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
@@ -35,11 +38,14 @@ skgbkjsdgkjdsgjhs
 
 &nbsp;<br>
 
-<img style="float: left;" src="assets/images/Papers/DM_nu.jpg" width="450">
+<img style="float: left;" src="assets/images/Papers/DM_nu.jpg" width="435">
 
 ## High energy neutrinos
 gnkjsgjhjggsj
 
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
@@ -60,6 +66,9 @@ gnkjsgjhjggsj
 ## Dark matter subhalos
 gnkjsgjhjggsj
 
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
 &nbsp;<br>
