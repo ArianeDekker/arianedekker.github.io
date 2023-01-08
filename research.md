@@ -24,8 +24,8 @@ gnkjsgjhjggsj
 &nbsp;<br>
 &nbsp;<br>
 
-***
-<hr class="has-background-black">
+
+<hr class="has-background-grey">
 
 <!-- ####### -->
 
@@ -57,7 +57,7 @@ gnkjsgjhjggsj
 &nbsp;<br>
 &nbsp;<br>
 
-***
+<hr class="has-background-grey">
 
 <!-- ####### -->
 
@@ -80,6 +80,6 @@ gnkjsgjhjggsj
 &nbsp;<br>
 &nbsp;<br>
 
-***
+<hr class="has-background-grey">
 
 <!-- ####### -->
