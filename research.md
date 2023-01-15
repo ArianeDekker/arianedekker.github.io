@@ -46,7 +46,7 @@ The abundance of dark matter subhalos in the Milky-Way halo can be used to disti
 <img style="float: left;" src="assets/images/Papers/Lum_n0_.jpg" width="435">
 
 #### High energy neutrinos
-Astrophysical neutrinos with Tev and PeV energies have been detected with IceCube in the last decade. Neutrinos travel in an unattenuated and undeviated path towards Earth and can therefore provide insight into acceleration processes, on the origin of high-energy cosmic rays and on the potential discovery of new distant sources. In [Dekker et al. (2019)](https://doi.org/10.1088/1475-7516/2019/02/002) we constrain the contribution of astrophysical source populations to the observed neutrino sky by considering isotropic and anisotropic components of the diffuse neutrino data. With current data, rare and bright source classes can be constrained.  
+Astrophysical neutrinos with Tev and PeV energies have been detected with IceCube in the last decade. Neutrinos travel in an unattenuated and undeviated path towards Earth and can therefore provide insight into acceleration processes, on the origin of high-energy cosmic rays and on the potential discovery of new distant sources. The origin of the observed neutrino flux is however unknown. In [Dekker et al. (2019)](https://doi.org/10.1088/1475-7516/2019/02/002) we constrain the contribution of astrophysical source populations to the observed neutrino sky by considering isotropic and anisotropic components of the diffuse neutrino data. With current data, rare and bright source classes can be constrained.  
 
 
 &nbsp;<br>
