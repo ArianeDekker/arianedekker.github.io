@@ -33,7 +33,7 @@ The Milky-Way is embedded in a large dark matter halo, and the Galactic halo the
 <img style="float: left;" src="assets/images/Papers/wdm_Constraints.jpg" width="400">
 
 #### Dark matter subhalos
-The abundance of dark matter subhalos in the Milky-Way halo can be used to distinguish between dark matter models. Satellite galaxies live within subhalos and are observable. In [Dekker et al. (2022)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.123026) we predict the abundance of Milky-Way satellites using the Semi-Analytical SubHalo Inference Modeling (sashimi) code (see github) and compare them with the observations from the Dark Energy Survey and PanSTARRS1 to set stringent constraints on warm dark matter models. 
+The abundance of dark matter subhalos in the Milky-Way halo can be used to distinguish between dark matter models. Satellite galaxies live within subhalos and are observable. In [Dekker et al. (2022)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.123026) we predict the abundance of Milky-Way satellites using the Semi-Analytical SubHalo Inference Modeling (sashimi) code (see codes [here](https://github.com/shinichiroando/sashimi-w)) and compare them with the observations from the Dark Energy Survey and PanSTARRS1 to set stringent constraints on warm dark matter models. 
 
 
 &nbsp;<br>
