@@ -43,7 +43,11 @@
                 {% endunless %}   
                 {% unless site.inspire_username ==  %}
                 <a href="https://inspirehep.net/authors/{{site.inspire_username}}" target="_blank" class="has-text-black"><i class="fab fa-inspirehep"></i></a>
-                {% endunless %}                                
+                {% endunless %}   
+                {% unless site.inspire_username ==  %}
+                <a href="https://inspirehep.net/authors/{{site.inspire_username}}"><img src="assets/images/favicon.jpg"></a>
+                {% endunless %}                   
+                <!-- https://inspirehep.net/favicon.ico                         -->
             </div>
         </div>
     </div>
