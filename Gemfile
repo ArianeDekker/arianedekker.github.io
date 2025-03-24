@@ -9,6 +9,7 @@ source "http://rubygems.org"
 # Happy Jekylling!
 
 gem "jekyll"
+gem "nokogiri", ">= 1.15.6"
 gem "rack"
 gem "webrick"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
