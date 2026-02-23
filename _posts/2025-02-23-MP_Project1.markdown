@@ -2,5 +2,13 @@
 layout: post
 title:  "What drives climbing rates?"
 date:   2025-02-23
+image: assets/images/IMG_2011.jpg
 ---
- To be added.. 
+
+
+What features of outdoor rock climbing routes drive how people perceive it? What makes a route a classic? And given your favorite climbs, what routes should you climb next? To explore I analyzed over 20k routes from Mountain Project. 
+
+
+<p align="center">
+  <img src="assets/images/Stars_Regression_Coefficient_Grading_above9.png" width="600">
+</p>
