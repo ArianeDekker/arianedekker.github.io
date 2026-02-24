@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "What drives climbing rates?"
+title:  "What drives climbing ratings?"
 date:   2025-02-23
-<!--post-image: <img src="/assets/images/img_2011.png">-->
+post-image: <img src="assets/images/img_2011.png">
 ---
 
-
-What features of outdoor rock climbing routes drive how people perceive it? What makes a route a classic? And given your favorite climbs, what routes should you climb next? To explore I analyzed over 20k routes from Mountain Project. 
+As a rock climber, I am always looking for the next destination with new routes and areas to climb. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 
+To explore this, I analyzed over 115k routes from Mountain Project. In a follow-up blog, I build a personalized recommendation framework that suggests new routes based on your favorite outdoor climbs. 
+<!--What features of outdoor rock climbing routes drive how people perceive it? What makes a route a classic? And given your favorite climbs, what routes should you climb next? To explore I analyzed over 25k routes from Mountain Project. -->
 
 
 <p align="center">
