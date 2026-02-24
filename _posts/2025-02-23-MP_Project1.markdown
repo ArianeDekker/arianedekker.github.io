@@ -2,7 +2,7 @@
 layout: post
 title:  "What drives climbing rates?"
 date:   2025-02-23
-post-image: /assets/images/img_2011.png
+post-image: <img src="/assets/images/img_2011.png">
 ---
 
 
