@@ -2,7 +2,7 @@
 layout: post
 title:  "What drives climbing rates?"
 date:   2025-02-23
-post-image: /assets/images/img_2011.jpg
+post-image: /assets/images/img_2011.jpeg
 ---
 
 
@@ -14,4 +14,4 @@ What features of outdoor rock climbing routes drive how people perceive it? What
 </p>
 
 
-![](/assets/Stars_Regression_Coefficient_Grading_above9.png)
+<!--![](/assets/Stars_Regression_Coefficient_Grading_above9.png)-->
