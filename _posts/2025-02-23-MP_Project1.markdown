@@ -5,9 +5,9 @@ date:   2025-02-23
 post-image: <img src="assets/images/img_2011.png">
 ---
 
-As a rock climber, I am always looking for the next destination with new routes and areas to climb. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 
+I'm always looking for the next outdoro climbing destination with new routes and areas to explore. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 
 To explore this, I analyzed over 115k routes from Mountain Project. In a follow-up blog, I build a personalized recommendation framework that suggests new routes based on your favorite outdoor climbs. 
-<!--What features of outdoor rock climbing routes drive how people perceive it? What makes a route a classic? And given your favorite climbs, what routes should you climb next? To explore I analyzed over 25k routes from Mountain Project. -->
+The codes can be found here. 
 
 
 ### About the data
@@ -22,12 +22,18 @@ To quantify which route characteristics are associated with higher star ratings,
 
 $\text{Stars}_i = \beta_0 + \beta_1  \text{Grade}_i + \beta_2   \log(\text{Votes}_i) + \sum_k \beta_k  \text{Style}_k(i) + \epsilon $. 
 
-The coefficients $\beta_k$ measure how the presence of a specific climbing feature in the description of route $i$ (e.g. slab, overhang, pumpy) is associated with the route's average star rating, for constant grade and popularity.
-<!-- the regression coefficients associated with each style indicator, and quantify the effect of a given route $i$ characteristic on star rating for constant grade and popularity. -->
+The coefficients $\beta_k$ measure how the presence of a specific climbing feature in the description of route $i$ (e.g. slab, overhang, pumpy) is associated with the route's average star rating, for constant grade and popularity. 
 
 
-
+To prepare for regression analysis, I transformed route descriptions into binary style indicators. 
+I then fit an ordinary least square regression of average star rating on climbing difficulty (Grade), popularity (Votes) and style features (Style) to extract the style coefficients $\beta_k$. 
+ 
 ### What features drive star rating most?
+The figure below shows the estimated regression coefficients for route features that have the largest estimated effect on star ratings as purple stars, while the blue band shows the 95% confidence intervals. Positive coefficients correspond features associated with higher average star rating, while negative coefficients indicate features associated with lower ratings.
+ 
+ Climbs that are pumpy are strongly associated with star rating graded above 5.9, suggesting that pumpy routes are favored. 
+ 
+
 
 
 
