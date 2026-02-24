@@ -33,7 +33,9 @@ The figure below shows the estimated regression coefficients for route features 
  
  Climbs that are pumpy are strongly associated with star rating graded above 5.9, suggesting that pumpy routes are favored. 
  
+ 
 
+To ensure that style indicators capture distinct route characteristics rather than overlapping features (e.g., pumpy and overhang), I evaluated multicollinearity using Variance Inflation Factors (VIF). All predictors showed low VIF values (<1.3), indicating stable and interpretable coefficient estimates.
 
 
 
