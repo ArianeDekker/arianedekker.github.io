@@ -10,7 +10,29 @@ To explore this, I analyzed over 115k routes from Mountain Project. In a follow-
 <!--What features of outdoor rock climbing routes drive how people perceive it? What makes a route a classic? And given your favorite climbs, what routes should you climb next? To explore I analyzed over 25k routes from Mountain Project. -->
 
 
+### About the data
+Data was downoaded [here on kaggle](https://www.kaggle.com/datasets/pdegner/mountain-project-rotues-and-forums), which includes 116000 routes from Mountain Project. I cleaned and preprocessed the data to select only sport climbs that contain route description and >5 votes. Moreover, the YDS climbing grades were converted into a continuous numerical scale and only climbs with grades >5.8 are selected. 
+
+### Route descriptions
+I applied TF-IDF vectorization to extract text features informative of route style. To reduce noise and select only informative features, I capped feature dimensionality to 5k, removed non-informative common words (e.g., anchors, bolts and meter), included both unigrams and bigrams, and applied frequency thresholds to 20. 
+The resulting 5k feature set was then used to construct a dictionary of climbing attributes, grouping related terms into caegories such as route angles, rock features, hold type, and movement style. 
+
+### Linear regression
+To quantify which route characteristics are associated with higher star ratings, I estimate the following linear regression model:
+
+$\text{Stars}_i = \beta_0 + \beta_1  \text{Grade}_i + \beta_2   \log(\text{Votes}_i) + \sum_k \beta_k  \text{Style}_k(i) + \epsilon $. 
+
+The coefficients $\beta_k$ measure how the presence of a specific climbing feature in the description of route $i$ (e.g. slab, overhang, pumpy) is associated with the route's average star rating, for constant grade and popularity.
+<!-- the regression coefficients associated with each style indicator, and quantify the effect of a given route $i$ characteristic on star rating for constant grade and popularity. -->
+
+
+
+### What features drive star rating most?
+
+
+
 <p align="center">
   <img src="/assets/images/Stars_Regression_Coefficient_Grading_above9.png" width="600">
 </p>
+
 
