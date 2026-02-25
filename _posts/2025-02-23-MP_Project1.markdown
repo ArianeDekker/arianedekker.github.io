@@ -5,9 +5,9 @@ date:   2025-02-23
 post-image: <img src="assets/images/img_2011.png">
 ---
 
-I'm always looking for the next outdoro climbing destination with new routes and areas to explore. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 
+I'm always on the lookout for the next outdoor climbing trip with routes and areas to explore. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 
 To explore this, I analyzed over 115k routes from Mountain Project. In a follow-up blog, I build a personalized recommendation framework that suggests new routes based on your favorite outdoor climbs. 
-The codes can be found here. 
+The codes can be found [here on GitHub](https://github.com/ArianeDekker/Climbing_data). 
 
 
 ### About the data
