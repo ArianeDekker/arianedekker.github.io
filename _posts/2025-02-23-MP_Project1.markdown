@@ -2,7 +2,8 @@
 layout: post
 title:  "What drives climbing ratings?"
 date:   2025-02-23
-post-image: <img src="assets/images/img_2011.png">
+<!--post-image: <img src="assets/images/img_2011.png">-->
+post-image: /assets/images/Fig1.jpeg
 ---
 
 I'm always on the lookout for the next outdoor climbing trip with routes and areas to explore. What actually makes an outdoor climb a classic? Which features of the rock drive the climber's experience? 

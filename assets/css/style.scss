@@ -302,9 +302,13 @@ a.navbar-item.is-active {
     .title {
         margin: auto;
     }
-    #post-image {
-        border-radius: 0.25rem;
-    }
+#post-image {
+    border-radius: 0.25rem;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
     .subtitle {
         letter-spacing: 0.05rem;
     }
