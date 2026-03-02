@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Route recommendation"
+date:   2025-03-02
+post-image: /assets/images/Figure_Blog1.JPG
+---
+With +100k climbing routes worlwide, how do I choose the next destination? Over the years, I tracked the climbs I've done on Mountain Project and rated them. Can these be used to predict my next favorite climbs? 
+I build a supervised neural network that learns my climbing taste from route description. For every route I haven't climbed yet, the model estimates the probability that they resemble previous high-rated climbs, and ranks them accordingly. Moreover, the model recommends climbing areas that best match my personal climbing taste. 
