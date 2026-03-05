@@ -20,6 +20,11 @@ To translate the ratings into binary like/not-like, I set a threshold at 3.5 for
   <img src="/assets/images/01_ratings_hist_both.png" width="600">
 </p>
 
+
+<p align="center">
+  <img src="/assets/images/01_LikedRoutesKeywords.png" width="600">
+</p>
+
 <!--Histogram with my likes with vertical line the threshold based on my mean, and also at 3.5? And together with the average? -->
 
 <!--Training: embedding + LSTM + MLP. -->
