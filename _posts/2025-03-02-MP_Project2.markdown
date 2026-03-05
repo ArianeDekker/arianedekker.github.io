@@ -12,8 +12,13 @@ In the next blog I will share a route recommender version which takes climbing f
 
 
 ### Personal likes
-Routes on Mountain Project are rated between 0-4. I appear to be a generous rater, as shown in the histogram below where I compare my likes and the average likes from the +100k routes. 
+Routes on Mountain Project are rated between 0-4. I rate generously and mostly track the routes I've liked, as shown in the histogram below where I compare my likes and the average likes from the +100k routes. 
 To translate the ratings into binary like/not-like, I set a threshold at 3.5 for the community averaged votes, while for my own votes I use a personalized threshold, chosen to maximuze the F1 score, since my ratings are biased towards higher values. 
+
+
+<p align="center">
+  <img src="/assets/images/01_ratings_hist_both.png" width="600">
+</p>
 
 <!--Histogram with my likes with vertical line the threshold based on my mean, and also at 3.5? And together with the average? -->
 
