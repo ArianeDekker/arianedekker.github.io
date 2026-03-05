@@ -4,5 +4,17 @@ title:  "Route recommendation"
 date:   2025-03-02
 post-image: /assets/images/Figure_Blog1.JPG
 ---
-With +100k climbing routes worlwide, how do I choose the next destination? Over the years, I tracked and rated the climbs I've done on Mountain Project. Can these be used to predict my next favorite routes? 
-I build a supervised neural network that learns my climbing taste from route description. For every route I haven't climbed yet, the model estimates the probability that it resembles my previous highly rated climbs and ranks them. The model also recommends climbing areas that best alight with my personal climbing style. 
+With +100k climbing routes worldwide, how do I choose the next destination? Over the years, I tracked and rated the climbs I've done on Mountain Project and I want to use these to recommend my next routes to climb.  
+I built a supervised neural network that learns my climbing taste from route description. For every route I haven't climbed yet, the model estimates the probability that it resembles my previous highly rated climbs and ranks them. The model also recommends climbing areas that best align with my personal climbing style. 
+
+The codes can be found on [here on GitHub](https://github.com/ArianeDekker/Climbing_data). If you want to try it yourself, all you need to do is download your ticks from Mountain Project. 
+In the next blog I will share a route recommender version which takes climbing features as input, which is useful if you want to try different styles, or if you haven't tracked enough routes to make reliable predictions. 
+
+
+### Personal likes
+Routes on Mountain Project are rated between 0-4. I appear to be a generous rater, as shown in the histogram below where I compare my likes and the average likes from the +100k routes. 
+To translate the ratings into binary like/not-like, I set a threshold at 3.5 for the community averaged votes, while for my own votes I use a personalized threshold, chosen to maximuze the F1 score, since my ratings are biased towards higher values. 
+
+<!--Histogram with my likes with vertical line the threshold based on my mean, and also at 3.5? And together with the average? -->
+
+<!--Training: embedding + LSTM + MLP. -->
