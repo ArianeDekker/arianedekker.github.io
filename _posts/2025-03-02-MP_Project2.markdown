@@ -12,7 +12,7 @@ In the next blog I will share a route recommender version which takes climbing f
 
 
 ### Personal likes
-Routes on Mountain Project are rated between 0-4. I rate generously and mostly track the routes I've liked, as shown in the histogram below where I compare my likes and the average likes from the +100k routes. 
+Routes on Mountain Project are rated between 0-4. I have 72 personal ticks of which 55 are used for learning as they have sufficient description. I appear to rate generously and mostly track the routes I've liked, as shown in the histogram below where I compare my likes and the average likes from the +100k routes. 
 To translate the ratings into binary like/not-like, I set a threshold at 3.5 for the community averaged votes, while for my own votes I use a personalized threshold, chosen to maximuze the F1 score, since my ratings are biased towards higher values. 
 
 
@@ -20,11 +20,32 @@ To translate the ratings into binary like/not-like, I set a threshold at 3.5 for
   <img src="/assets/images/01_ratings_hist_both.png" width="600">
 </p>
 
+Based on the keywords describing climbing features I found in [Blog 1](https://arianedekker.github.io/blog/MP_Project1), I show below the top keywords from my ticked routes with a mild preference for vertical face climbing (yes my favorites!), and less interest in powerful overhang climbs that have cracks or jugs. 
+Let's now train the model to learn what high-rated climbing routes look like. 
 
 <p align="center">
   <img src="/assets/images/01_LikedRoutesKeywords.png" width="600">
 </p>
 
-<!--Histogram with my likes with vertical line the threshold based on my mean, and also at 3.5? And together with the average? -->
+
+### Training neural network
+Since my tick list only contains 55 routes, I will train a supervised neural network on the full 116.000 routes using the average ratings of the community. Secondly I will apply transfer learning on my personal ticks to recommend new climbs. 
+
+The model is a neural network trained to perform supervised binary (liked/not-liked routes) classification. 
+It processes two parallel inputs; the route description as text and structured features (e.g., grade, average star ratings), which are independently encoded with their own layers before being fused into a single prediction.  
+
+- The route descriptions are tokenised and embedded into a 64-dimensional word vector space. Using LSTM (Long Short-Term Memory Network), the word vectors are then read in ordered sequence. In this way, descriptions like "not pumpy" are combined into a new vector, instead of two separate vectors "not" and "pumpy" that have very distinct meaning. The output is a single 64-dimensional vector, which is a compressed representation of the full description that retains the patterns most relevant for predicting route quality.  
+
+
+- The structure feature vector consists of normalised climbing grade, average stars, 30 style keyword flags found in Blog 1, and 8 route type flags (e.g., sport, trad). They are passed through a linear layer, followed by a ReLU activation and dropout to prevent overfitting. 
+
+The two inputs are concatenated into a single 128-dimensional vector and passed through a fusion MLP (Multi-Layer Perceptron) that outputs a single value. This is converted to a probability between 0 and 1 via a sigmoid function, representing the likelihood that a route is liked.  
+<!--[Figure: Route description → Embedding → LSTM → 64-d text repr. | Structured features → Linear → ReLU → 64-d struct repr. Both concatenated → Fusion MLP → sigmoid → P(liked)]-->
+
+
+### Personal recommendation. 
+Starting from the pre-trained saved checkpoint, the model is fine-tuned on my personal ticks. 
+Training minimises binary cross-entropy loss using Adam, with gradient clipping to stabilise the LSTM. The best checkpoint by validation AUC is saved for the next stage.
+
 
 <!--Training: embedding + LSTM + MLP. -->
