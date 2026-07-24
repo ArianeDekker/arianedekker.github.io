@@ -3,6 +3,8 @@ title: Talks & Teaching
 layout: publications
 ---
 
+<div class="has-text-left" markdown="1">
+
 ## Teaching
 
  
