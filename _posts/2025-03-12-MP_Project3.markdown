@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Route recommendation webpage"
-date:   2025-07-12
+date:   2026-07-12
 post-image: /assets/images/Figure_Blog1.JPG
 ---
 
@@ -9,6 +9,8 @@ In the previous [blog](https://arianedekker.github.io/blog/MP_Project2) I found 
 
 
 <p align="center">
-  <img src="/assets/images/webpage.png" width="500"
+  <img src="/assets/images/Webpage.png" 
+	alt="Screenshot of the webapp"
+	width="500"
          style="border: 1px solid #e5e7eb; border-radius: 20px; padding: 10px;">
 </p>

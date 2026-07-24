@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Route recommendation"
+title:  "Personalized route recommendation"
 date:   2025-03-02
 post-image: /assets/images/Figure_Blog1.JPG
 ---
