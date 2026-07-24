@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Route recommendation webpage"
+title:  "Route finder webpage"
 date:   2026-07-12
 post-image: /assets/images/Blog3.JPG
 ---
