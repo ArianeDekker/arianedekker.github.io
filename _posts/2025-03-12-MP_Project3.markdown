@@ -5,7 +5,7 @@ date:   2026-07-12
 post-image: /assets/images/Blog3.JPG
 ---
 
-Want a quick top-5 climbing route based on a plain-text description of your preferred (or disliked) style and location? [Try this interface](https://climbing-recs.streamlit.app/), trained on 116k+ routes (see previous blogs).
+Want a quick top-5 climbing route recommendation based on a plain-text description of your preferred (or disliked) climbing style and geographic location? [Try this interface](https://climbing-recs.streamlit.app/), trained on 116k+ routes (see previous blogs).
 
 
 <p align="center">
