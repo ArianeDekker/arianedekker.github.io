@@ -2,7 +2,7 @@
 layout: post
 title:  "Route recommendation webpage"
 date:   2026-07-12
-post-image: /assets/images/Figure_Blog1.JPG
+post-image: /assets/images/Blog3.JPG
 ---
 
 In the previous [blog](https://arianedekker.github.io/blog/MP_Project2) I found that my personal ticks are not sufficient to give me personalized enough recommendations. Therefore, in case you haven't ticked enough routes or just want a quick top-5 based on plain-text description of your preferred style and location, [try this interface](https://climbing-recs.streamlit.app/).
