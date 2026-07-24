@@ -5,7 +5,7 @@ date:   2026-07-12
 post-image: /assets/images/Blog3.JPG
 ---
 
-In the previous [blog](https://arianedekker.github.io/blog/MP_Project2) I found that my personal ticks are not sufficient to give me personalized enough recommendations. Therefore, in case you haven't ticked enough routes or just want a quick top-5 based on plain-text description of your preferred style and location, [try this interface](https://climbing-recs.streamlit.app/).
+Want a quick top-5 climbing route based on a plain-text description of your preferred (or disliked) style and location? [Try this interface](https://climbing-recs.streamlit.app/), trained on 116k+ routes (see previous blogs).
 
 
 <p align="center">
