@@ -18,7 +18,7 @@ Led weekly problem-solving sessions for 20-50 students, co-designed exam and ass
 - *ITFA Workshop* (BSc, S. Ando)
 
 **Bootcamp Instructor** &nbsp;·&nbsp; Warrior-Scholar Project STEM, University of Chicago &nbsp;·&nbsp; 2023
-Taught 4-hour introductory physics lectures to veterans.
+Taught 4-hour introductory physics lectures for veterans.
 
 **Lecturer** &nbsp;·&nbsp; Onderwijshelden, Netherlands &nbsp;·&nbsp; 2014–2017
 Led intensive 8-hour exam-preparation sessions for 20–60 high-school students.
